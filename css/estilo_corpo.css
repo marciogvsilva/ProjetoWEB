@@ -54,12 +54,12 @@ a{
         display: block;
     }
 
-    .box_1, box_2{
+    .box_1, .box_2{
         width: auto;
     }
 }
 
-@media(max-width: 375px){
+@media(max-width: 425px){
     h2{
         font-size: 20px;
     }
