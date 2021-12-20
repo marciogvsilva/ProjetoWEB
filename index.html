@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <link rel="stylesheet" type="text/css" href="css/estilo_menu.css"/>
         <link rel="stylesheet" type="text/css" href="css/estilo_corpo.css"/>
+        <link rel="stylesheet" type="text/css" href="css/carrossel.css"/>
         <link rel="icon" href="img/favicon.png"/>
     </head>
 
@@ -35,7 +36,30 @@
 
         <div class="container">
             <div class="box_2">
-                <img src="img/image_01.png" alt="">
+                <div class="carrossel">
+                    <div class="wall">
+                        <img src="img/image_01.png" alt="">
+                    </div>
+                    
+                    <div class="wall">
+                        <img src="img/image_22.jpg" alt="">
+                    </div>
+        
+                    <div class="wall">
+                        <img src="img/image_23.jpg" alt="">
+                    </div>
+        
+                    <a class="prev" onclick="plus_walls(-1)">&#10094;</a>
+                    <a class="next" onclick="plus_walls(1)">&#10095;</a>
+                    
+                    <div class="dots_box">
+                        <span class="dot" onclick="current_walls(1)"></span>
+                        <span class="dot" onclick="current_walls(2)"></span>
+                        <span class="dot" onclick="current_walls(3)"></span>
+                    </div>
+
+                    <script src="js/carrossel.js"></script>
+                </div>
                 
                 <h2>Melhores jogos da quarentena</h2>
                 
@@ -63,12 +87,14 @@
 
                 <img src="img/image_02.jpg" alt="">
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed odio officia 
-                    eos ducimus ad fugiat nemo quisquam est maxime illum, repellat repellendus 
-                    porro. Ea necessitatibus, eligendi ipsam vitae similique error!
+                <p>
+                    Halo Infinite e Monster Rancher 1 & 2 DX são os destaques entre os lançamentos de jogos da 
+                    primeira semana de dezembro. A chegada do novo capítulo da saga de Master Chief ao Xbox e a
+                     remasterização dos clássicos games da série Monster Rancher serão acompanhados ainda pela 
+                    expansão de Final Fantasy 14: Endwalker que havia sofrido um pequeno atraso.
                 </p>
 
-                <a href="">Leia mais...</a>
+                <a href="https://www.techtudo.com.br/noticias/2021/12/halo-infinite-e-monster-rancher-sao-destaques-nos-lancamentos-de-jogos-da-semana.ghtml">Leia mais...</a>
             </div>
 
             <div class="box_1">
@@ -76,12 +102,14 @@
 
                 <img src="img/image_03.jpg" alt="">
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed odio officia 
-                    eos ducimus ad fugiat nemo quisquam est maxime illum, repellat repellendus 
-                    porro. Ea necessitatibus, eligendi ipsam vitae similique error!
+                <p>
+                    Chegamos no mês de dezembro e muitos jogos já chegaram ou estão para chegar no mercado no 
+                    começo de 2022. Muitos eventos de jogos de fim de ano envolvendo premiações e votações como
+                     o The Game Awards ou Golden Joystick Award, que buscam os destaques deste que foi um período
+                     de altos e baixos, também estão por vir. Veja os jogos mais votados!
                 </p>
 
-                <a href="">Leia mais...</a>
+                <a href="https://pixelnerd.com.br/os-10-melhores-jogos-de-outubro-de-2021-segundo-o-metacritic/">Leia mais...</a>
             </div>
         </div>
 

@@ -16,6 +16,7 @@ body{
 
 img{
     width: 100%;
+    border-radius: 10px;
 }
 
 .box_1, .box_2{
@@ -29,6 +30,11 @@ img{
 
 h2{
     color: #00FF0A;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
 
 #footer{
